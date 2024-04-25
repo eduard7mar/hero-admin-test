@@ -1,5 +1,18 @@
+import wind from '../../assets/wind.jpg';
+import earth from '../../assets/earth.jpg';
+import fire from '../../assets/fire.jpg';
+import water from '../../assets/water.jpg';
+
+const elementImages = {
+  fire: fire,
+  water: water,
+  wind: wind,
+  earth: earth
+};
+
 const HeroesListItem = ({ name, description, element, onDelete }) => {
   let elementClassName;
+  let imageSrc = elementImages[element];
 
   switch (element) {
     case "fire":
@@ -23,7 +36,8 @@ const HeroesListItem = ({ name, description, element, onDelete }) => {
       className={`card flex-row mb-4 shadow-lg text-white ${elementClassName}`}
     >
       <img
-        src="http://www.stpaulsteinbach.org/wp-content/uploads/2014/09/unknown-hero.jpg"
+        // src="http://www.stpaulsteinbach.org/wp-content/uploads/2014/09/unknown-hero.jpg"
+        src={imageSrc}
         className="img-fluid w-25 d-inline"
         alt="unknown hero"
         style={{ objectFit: "cover" }}

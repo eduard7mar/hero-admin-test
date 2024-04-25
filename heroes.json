@@ -1,12 +1,6 @@
 {
   "heroes": [
     {
-      "id": "19f1df17-99a8-4c00-b3e0-aa076e253693",
-      "name": "Аквамен",
-      "description": "Сила Воды",
-      "element": "water"
-    },
-    {
       "id": "0ee0fed4-4121-41dd-a456-9519cbfc61b3",
       "name": "Капитан Огня",
       "description": "Сила огня",
