@@ -1,49 +1,66 @@
 {
-    "heroes": [
-      {
-        "id": 1,
-        "name": "Первый герой",
-        "description": "Первый герой в рейтинге!",
-        "element": "fire"
-      },
-      {
-        "id": 2,
-        "name": "Неизвестный герой",
-        "description": "Скрывающийся в тени",
-        "element": "wind"
-      },
-      {
-        "id": 3,
-        "name": "Морской герой",
-        "description": "Как аквамен, но не из DC",
-        "element": "water"
-      }
-    ],
-    "filters": [
-      {
-        "name": "all",
-        "label": "Все",
-        "className": "btn-outline-dark"
-      },
-      {
-        "name": "fire",
-        "label": "Огонь",
-        "className": "btn-danger"
-      },
-      {
-        "name": "water",
-        "label": "Вода",
-        "className": "btn-primary"
-      },
-      {
-        "name": "wind",
-        "label": "Ветер",
-        "className": "btn-success"
-      },
-      {
-        "name": "earth",
-        "label": "Земля",
-        "className": "btn-secondary"
-      }
-    ]
-  }
+  "heroes": [
+    {
+      "id": "19f1df17-99a8-4c00-b3e0-aa076e253693",
+      "name": "Аквамен",
+      "description": "Сила Воды",
+      "element": "water"
+    },
+    {
+      "id": "0ee0fed4-4121-41dd-a456-9519cbfc61b3",
+      "name": "Капитан Огня",
+      "description": "Сила огня",
+      "element": "fire"
+    },
+    {
+      "id": "96c0ba69-d70d-4ef0-816a-9c15472bc850",
+      "name": "Водолей",
+      "description": "Сила Воды",
+      "element": "water"
+    },
+    {
+      "id": "2a2da68c-f6a4-497e-a708-53deb9820077",
+      "name": "Аанг",
+      "description": "Сила воздуха",
+      "element": "wind"
+    },
+    {
+      "id": "b11eeafc-6c6d-4937-ba11-973abef676ec",
+      "name": "Земной Страж",
+      "description": "Сила Земли",
+      "element": "earth"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark",
+      "id": "3c1b"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger",
+      "id": "982d"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary",
+      "id": "1b62"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success",
+      "id": "20c2"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary",
+      "id": "8790"
+    }
+  ]
+}
